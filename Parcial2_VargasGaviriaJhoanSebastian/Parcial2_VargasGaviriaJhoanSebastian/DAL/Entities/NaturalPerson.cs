@@ -18,6 +18,7 @@ namespace Parcial2_VargasGaviriaJhoanSebastian.DAL.Entities
         [Required(ErrorMessage = "El campo {0} es requerido!")]
         public int BirthYear { get; set; }
 
+        [Display(Name = "Edad")]
         public int Age { get; set; }
         #endregion
     }
