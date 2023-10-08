@@ -19,7 +19,7 @@ namespace Parcial2_VargasGaviriaJhoanSebastian.DAL.Entities
         public int BirthYear { get; set; }
 
         [Display(Name = "Edad")]
-        public int Age { get; set; }
+        public int? Age { get; set; }
         #endregion
     }
 }

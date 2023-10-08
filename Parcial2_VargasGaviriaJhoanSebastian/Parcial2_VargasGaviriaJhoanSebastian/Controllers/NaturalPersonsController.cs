@@ -61,11 +61,27 @@ namespace Parcial2_VargasGaviriaJhoanSebastian.Controllers
             if (ModelState.IsValid)
             {
                 naturalPerson.id = Guid.NewGuid();
+                
+                // Set default values
+                naturalPerson.Age = ComputeAge(naturalPerson.BirthYear);
+                naturalPerson.CreatedDate = DateTime.Now;
+                naturalPerson.ModifiedDate = DateTime.Now;
+
                 _context.Add(naturalPerson);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
             return View(naturalPerson);
+        }
+
+        private int ComputeAge(int bornYear)
+        {
+            DateTime currentDate = DateTime.Now;
+            DateTime bornDate = new DateTime(bornYear, 01, 01);
+
+            int age = currentDate.Year - bornDate.Year;
+
+            return age;
         }
 
         // GET: NaturalPersons/Edit/5
@@ -100,6 +116,10 @@ namespace Parcial2_VargasGaviriaJhoanSebastian.Controllers
             {
                 try
                 {
+                    // Set default values
+                    naturalPerson.Age = ComputeAge(naturalPerson.BirthYear);
+                    naturalPerson.ModifiedDate = DateTime.Now;
+
                     _context.Update(naturalPerson);
                     await _context.SaveChangesAsync();
                 }
