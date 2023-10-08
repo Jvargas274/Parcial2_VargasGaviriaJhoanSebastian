@@ -20,6 +20,5 @@ namespace Parcial2_VargasGaviriaJhoanSebastian.DAL.Entities
 
         public int Age { get; set; }
         #endregion
-
     }
 }

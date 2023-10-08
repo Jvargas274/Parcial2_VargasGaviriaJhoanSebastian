@@ -10,6 +10,5 @@ namespace Parcial2_VargasGaviriaJhoanSebastian.DAL.Entities
         public virtual DateTime? CreatedDate { get; set; }
         public virtual DateTime? ModifiedDate { get; set; }
         #endregion
-
     }
 }
