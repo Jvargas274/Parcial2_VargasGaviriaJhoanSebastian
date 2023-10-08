@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\juan\\source\\repos\\Parcial2_VargasGaviriaJhoanSebastian\\Parcial2_VargasGaviriaJhoanSebastian\\Parcial2_VargasGaviriaJhoanSebastian.csproj": {}
+    "C:\\Users\\juan\\Desktop\\Parcial2_VargasGaviriaJhoanSebastian\\Parcial2_VargasGaviriaJhoanSebastian\\Parcial2_VargasGaviriaJhoanSebastian\\Parcial2_VargasGaviriaJhoanSebastian.csproj": {}
   },
   "projects": {
-    "C:\\Users\\juan\\source\\repos\\Parcial2_VargasGaviriaJhoanSebastian\\Parcial2_VargasGaviriaJhoanSebastian\\Parcial2_VargasGaviriaJhoanSebastian.csproj": {
+    "C:\\Users\\juan\\Desktop\\Parcial2_VargasGaviriaJhoanSebastian\\Parcial2_VargasGaviriaJhoanSebastian\\Parcial2_VargasGaviriaJhoanSebastian\\Parcial2_VargasGaviriaJhoanSebastian.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\juan\\source\\repos\\Parcial2_VargasGaviriaJhoanSebastian\\Parcial2_VargasGaviriaJhoanSebastian\\Parcial2_VargasGaviriaJhoanSebastian.csproj",
+        "projectUniqueName": "C:\\Users\\juan\\Desktop\\Parcial2_VargasGaviriaJhoanSebastian\\Parcial2_VargasGaviriaJhoanSebastian\\Parcial2_VargasGaviriaJhoanSebastian\\Parcial2_VargasGaviriaJhoanSebastian.csproj",
         "projectName": "Parcial2_VargasGaviriaJhoanSebastian",
-        "projectPath": "C:\\Users\\juan\\source\\repos\\Parcial2_VargasGaviriaJhoanSebastian\\Parcial2_VargasGaviriaJhoanSebastian\\Parcial2_VargasGaviriaJhoanSebastian.csproj",
+        "projectPath": "C:\\Users\\juan\\Desktop\\Parcial2_VargasGaviriaJhoanSebastian\\Parcial2_VargasGaviriaJhoanSebastian\\Parcial2_VargasGaviriaJhoanSebastian\\Parcial2_VargasGaviriaJhoanSebastian.csproj",
         "packagesPath": "C:\\Users\\juan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\juan\\source\\repos\\Parcial2_VargasGaviriaJhoanSebastian\\Parcial2_VargasGaviriaJhoanSebastian\\obj\\",
+        "outputPath": "C:\\Users\\juan\\Desktop\\Parcial2_VargasGaviriaJhoanSebastian\\Parcial2_VargasGaviriaJhoanSebastian\\Parcial2_VargasGaviriaJhoanSebastian\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\juan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
